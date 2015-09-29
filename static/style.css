@@ -1,0 +1,32 @@
+.videoContBox { cursor: pointer; }
+
+.pointer {cursor: pointer;}
+.hover:hover { color: #3E8BD7; }
+
+
+#videoplayerBox {
+  position: fixed;
+  bottom: 0px;
+  z-index: 100;
+  background-color: darkgray;
+  width: 100%;
+}
+.vplayer  {
+  background-color: rgba(0, 255, 255, 0.2) !important; 
+}
+
+#bb_user img {
+    height: 45px;
+  width: auto;
+  
+}
+
+.right {
+   position: absolute;
+   right: 10px
+}
+
+#videoplayerBox .vplayer:-webkit-full-screen {
+  width: 100%;
+  height: 100%;
+}

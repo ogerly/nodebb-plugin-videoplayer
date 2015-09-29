@@ -1,0 +1,19 @@
+{
+	"id": "nodebb-plugin-videoplayer",
+	"name": "NodeBB Audioplayer Plugin",
+	"description": "this plugin embeds an HTML5 video player. when upload a video this does not appear as a link but as players in the content. Accepted video formats MP4, WEBM, MOV, OGV.",
+	"url": "https://github.com/ogerly/nodebb-plugin-videoplayer",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true }
+	],
+	"staticDirs": {
+        "static": "./static"
+    },
+    "css": [
+        "static/style.css"
+    ],
+    "scripts" : [
+        "static/js.js"
+    ]
+}
