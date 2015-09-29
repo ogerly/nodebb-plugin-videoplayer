@@ -24,7 +24,7 @@
         // ogg
         if (data.postData.content.match(embedUrl_ogg)) {
            console.log("video/ogg");  embed  = "";
-            embed  += ' <div class="videoContBox"  data-src="$1" data-type="video/ogg" data-codec="theora, vorbis" >Video in den Vordergrund';
+            embed  += ' <div class="videoContBox"  data-src="$1" data-type="video/ogg" data-codec="theora, vorbis" ><a class="btn btn-danger" href="#"><i class="fa fa-play fa-lg"></i> im Videoplayer öffnen </a>';
             embed  += '    <br><video class="vplayer" width="640" height="360" poster="/static/poster.jpg" preload controls>';
             embed  += '     <source src="/uploads/files/$1" type=\'video/ogg; codecs="theora, vorbis"\' />';
             embed  += ' </video></div>'; 
@@ -34,7 +34,7 @@
         // mp4
          if (data.postData.content.match(embedUrl_mp4)) {
             console.log("video/mp4");  embed  = "";
-             embed  += ' <div class="videoContBox"  data-src="$1" data-type="video/mp4" data-codec="avc1.42E01E, mp4a.40.2" >Video in den Vordergrund';
+             embed  += ' <div class="videoContBox"  data-src="$1" data-type="video/mp4" data-codec="avc1.42E01E, mp4a.40.2" ><a class="btn btn-danger" href="#"><i class="fa fa-play fa-lg"></i> im Videoplayer öffnen </a>';
              embed  += '   <br><video class="vplayer" width="640" height="360" poster="/static/poster.jpg" preload controls>';
              embed  += '  	  <source src="/uploads/files/$1" type=\'video/mp4; codecs="avc1.42E01E, mp4a.40.2"\' />';
              embed  += '  </video></div>';
@@ -52,7 +52,7 @@
         // webm
          if (data.postData.content.match(embedUrl_webm)) {
             console.log("video/webm");  embed  = "";
-            embed  += ' <div class="videoContBox"  data-src="$1" data-type="video/webm" data-codec="vp8, vorbis" >Video in den Vordergrund';
+            embed  += ' <div class="videoContBox"  data-src="$1" data-type="video/webm" data-codec="vp8, vorbis" ><a class="btn btn-danger" href="#"><i class="fa fa-play fa-lg"></i> im Videoplayer öffnen </a>';
             embed  += '   <br><video class="vplayer" width="640" height="360" poster="/static/poster.jpg" preload controls>';
             embed  += '     <source src="/uploads/files/$1" type=\'video/webm; codecs="vp8, vorbis"\' />';
 	         embed  += ' </video></div>';
