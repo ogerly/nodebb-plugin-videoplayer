@@ -117,12 +117,12 @@
             var video = $("#videoplayerBox .vplayer").get(0);         
 
           if (video.requestFullscreen) {
-    video.requestFullscreen();
-  } else if (video.mozRequestFullScreen) {
-    video.mozRequestFullScreen(); // Firefox
-  } else if (video.webkitRequestFullscreen) {
-    video.webkitRequestFullscreen(); // Chrome and Safari
-  }
+            video.requestFullscreen();
+          } else if (video.mozRequestFullScreen) {
+            video.mozRequestFullScreen(); // Firefox
+          } else if (video.webkitRequestFullscreen) {
+            video.webkitRequestFullscreen(); // Chrome and Safari
+          }
       });
       
     }

@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-videoplayer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "this plugin embeds an HTML5 video player. when upload a video this does not appear as a link but as players in the content. Accepted video formats MP4, WEBM, MOV, OGV.",
   "main": "library.js",
   "scripts": {
