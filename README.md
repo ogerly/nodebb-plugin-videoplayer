@@ -5,7 +5,7 @@
 
 ### NodeBB version 
 
-     run in NodeBB v0.7.x - v0.8.2
+     run in NodeBB v0.7.x - v0.9.3
 
 
    
